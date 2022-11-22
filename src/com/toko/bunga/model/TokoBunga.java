@@ -26,21 +26,40 @@ public class TokoBunga implements Serializable {
     @Column(name = "jenis", length = 20)
     private String jenis;
     @Column(name = "harga", length = 15)
-    private String harga;
+    private int harga;
 
     public String getKd_bunga() {
         return kd_bunga;
+    }
+
+    public void setKd_bunga(String kd_bunga) {
+        this.kd_bunga = kd_bunga;
     }
 
     public String getNama() {
         return nama;
     }
 
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
     public String getJenis() {
         return jenis;
     }
 
-    public String getHarga() {
+    public void setJenis(String jenis) {
+        this.jenis = jenis;
+    }
+
+    public int getHarga() {
         return harga;
     }
+
+    public void setHarga(int harga) {
+        this.harga = harga;
+    }
+    
+    
+ 
 }
