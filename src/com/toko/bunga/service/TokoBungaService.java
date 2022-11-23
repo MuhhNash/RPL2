@@ -3,7 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.toko.bunga.dao;
+
+package com.toko.bunga.service;
 
 import com.toko.bunga.model.TokoBunga;
 import java.util.List;
@@ -12,7 +13,7 @@ import java.util.List;
  *
  * @author Anas
  */
-public interface TokoBungaDao {
+public interface TokoBungaService {
     public void save(TokoBunga tokobunga);
     public void update(TokoBunga tokobunga);
     public void delete(TokoBunga tokobunga);
